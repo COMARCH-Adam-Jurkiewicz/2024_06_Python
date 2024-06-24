@@ -1,5 +1,5 @@
 name = "Adam"
-birth = input(f"{name} - podaj swój rok urodzenia: ")
+birth = int(input(f"{name} - podaj swój rok urodzenia: "))
 age = 2024 - birth
 
 # https://peps.python.org/pep-0008/#code-lay-out
