@@ -8,4 +8,7 @@ for number in range(ile):
     print(f"Aktualnie: {lista}")
 
 print(f"Koniec: {lista}")
+# len(lista) - ilośc elementów
+
+# na końcu jeśli lista > 5 elemntów to info, że duża
 
