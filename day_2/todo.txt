@@ -1,0 +1,16 @@
+- pokazać, jak w Python aktualna data
+- dorobić try.. except w strukt_4.py (dodanie liczby jako liczby)
+- while True:
+- break
+- tuple i [].append(tuple)
+
+- całe ćwiczenie
+# Zdefiniuj pustą listę adr = []
+# użyj pętli while True:
+# w bloku kodu pętli
+# pytaj o imię i nazwisko - name
+# jeśli name == "end" to break
+# pytaj o nr telefonu - phone
+# do listy dodaj adr.append((name,phone))
+
+# na koniec użyj pętli iterecyjnej for i wypisz wszystkie elementy adr
