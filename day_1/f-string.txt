@@ -1,0 +1,17 @@
+year = 1974
+name = "Adam"
+
+print(name + "urodził się w roku" + year)
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    print(name + "urodził się w roku" + year)
+TypeError: can only concatenate str (not "int") to str
+
+print(name + "urodził się w roku" + str(year))
+Adamurodził się w roku1974
+
+print(f"{name} urodził się w roku {year}")
+Adam urodził się w roku 1974
+
+print("{name} urodził się w roku {year}")
+{name} urodził się w roku {year}
