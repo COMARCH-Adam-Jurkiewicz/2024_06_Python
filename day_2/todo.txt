@@ -1,8 +1,12 @@
+https://docs.python.org/3.11/library/index.html
+
 - pokazać, jak w Python aktualna data
 - dorobić try.. except w strukt_4.py (dodanie liczby jako liczby)
 - while True:
 - break
 - tuple i [].append(tuple)
+
+adam@jurkiewicz.tech
 
 - całe ćwiczenie
 # Zdefiniuj pustą listę adr = []

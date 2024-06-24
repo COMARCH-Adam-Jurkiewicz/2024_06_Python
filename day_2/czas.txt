@@ -1,0 +1,14 @@
+from datetime import datetime
+data = datetime.now()
+data
+datetime.datetime(2024, 6, 24, 15, 47, 32, 822978)
+data.year
+2024
+data.month
+6
+data.day
+24
+data.hour
+15
+data.minute
+47
