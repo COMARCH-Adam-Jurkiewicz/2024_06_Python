@@ -15,7 +15,8 @@ adam@jurkiewicz.tech
 # pytaj o imię i nazwisko - name
 # jeśli name == "end" to break
 # pytaj o nr telefonu - phone
-# do listy dodaj adr.append((name,phone))
+# dodane = (name,phone)
+# do listy dodaj adr.append(dodane)
 
 # na koniec użyj pętli iterecyjnej for i wypisz wszystkie elementy adr
 
