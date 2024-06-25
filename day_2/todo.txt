@@ -25,8 +25,7 @@ adam@jurkiewicz.tech
 # analiza danych
 
 * https://github.com/abixadamj/helion-python/tree/main/Rozdzial_5
-* https://github.com/jvns/pandas-cookbook/blob/master/cookbook/Chapter%201%20-%20Reading%20from%20a%20CSV.ipynb
-* https://github.com/lshang0311/pandas-examples
+
 
 # Anaconda
 * https://www.anaconda.com/
