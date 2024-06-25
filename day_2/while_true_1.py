@@ -1,5 +1,8 @@
 print("start")
 counter = 0
 while True:
-    print(f"{counter=}")
     counter += 1
+    print(f"{counter=}")
+    if counter == 2875:
+        print("przerywam")
+        break
