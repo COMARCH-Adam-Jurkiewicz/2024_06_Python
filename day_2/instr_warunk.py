@@ -9,7 +9,7 @@ age = rok - birth
 # https://peps.python.org/pep-0008/#code-lay-out
 
 if age >= 18:
-    print("dorosłym być ciekawie")
+    print(f"dorosłym być ciekawie: {age=}")
     print("OK")
 else:
     brakuje = 18 - age
