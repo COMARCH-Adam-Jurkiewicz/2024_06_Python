@@ -1,0 +1,2 @@
+import csv
+plik = "OMNI_PICKUP_CONFIRMATION_DELV2024_06_20.csv"
