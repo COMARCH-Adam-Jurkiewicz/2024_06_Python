@@ -1,0 +1,48 @@
+[ ]
+[]
+() # TUPLA
+()
+("aaa", 44, True)
+('aaa', 44, True)
+l1 = []
+l1
+[]
+l1.append("a")
+l1
+['a']
+t1 = ()
+t1
+()
+t1.append("a")
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    t1.append("a")
+AttributeError: 'tuple' object has no attribute 'append'
+
+
+#### rozpakowywanie tupli
+
+t1 = ("a", 2, "b", 4)
+print(f"{t1=}")
+t1=('a', 2, 'b', 4)
+t1[1]
+2
+a, b, c, d = t1
+a
+'a'
+b
+2
+c
+'b'
+d
+4
+a, b, c, d, e = t1
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    a, b, c, d, e = t1
+ValueError: not enough values to unpack (expected 5, got 4)
+a, b, c = t1
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    a, b, c = t1
+ValueError: too many values to unpack (expected 3)
