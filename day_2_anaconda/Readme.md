@@ -8,5 +8,5 @@
 * https://github.com/lshang0311/pandas-examples
 
 ## Moje Notatniki
-https://anaconda.org/abix_edukacja/notebooks
-https://anaconda.org/sgh_adamjurkiewicz/notebooks
+* https://anaconda.org/abix_edukacja/notebooks
+* https://anaconda.org/sgh_adamjurkiewicz/notebooks
