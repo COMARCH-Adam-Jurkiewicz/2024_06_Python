@@ -17,6 +17,9 @@ https://github.com/abixadamj/helion-python/tree/main
 ## Materiały dodatkowe:
 * https://zpe.gov.pl/b/funkcje-w-jezyku-python/P1ew8QMNS
 * https://pythontutor.com/
+* https://python.szkola.pl/
+* https://it-szkola.edu.pl/kkurs,kurs,217
+* https://python.szkola.pl/enigma-tworzymy-gre-w-pythonie-w-przegladarce/
 
 
 
