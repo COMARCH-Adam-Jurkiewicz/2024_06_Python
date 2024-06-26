@@ -20,6 +20,7 @@ https://github.com/abixadamj/helion-python/tree/main
 * https://python.szkola.pl/
 * https://it-szkola.edu.pl/kkurs,kurs,217
 * https://python.szkola.pl/enigma-tworzymy-gre-w-pythonie-w-przegladarce/
+* https://github.com/klubmlodegoprogramisty/python
 
 
 
