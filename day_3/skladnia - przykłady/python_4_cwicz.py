@@ -3,9 +3,21 @@
 # ilość bitów 4 .. 20 i generować bezpieczną nazwę pliku i zwracać ją
 
 # importy
+from secrets import token_urlsafe
 
 # definicja funkcji
+def my_file():
+    while True:
+        try:
+            # liczba całkowita, więc funkcja int() - integer
+            bytes = int(input("Daj ilość bajtów 4..20: "))
+            # jeśli liczba bajtów odpowiednia
+            if 4 <= bytes <= 20:
+                # zwracamy nazwę pliku i kończymy działanie funkcji
+                return token_urlsafe(bytes) + ".tmp"
+        except:
+            print("Jakiś błąd....")
 
 # kod programu
-sercure_file = my_file() + ".tmp"
+sercure_file = my_file()
 print(f"Bezpieczna nazwa pliku to: {sercure_file}")
