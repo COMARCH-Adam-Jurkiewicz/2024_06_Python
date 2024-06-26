@@ -11,7 +11,8 @@ def get_degrees():
             print("Źle wprowadzono wartość stopni.")
             stopnie = 0
 
-
+# wywołać funkcję pobierania danych od usera
+get_degrees()
 
 # obliczyś sin i wyświetlić
 radiany = math.radians(stopnie)
