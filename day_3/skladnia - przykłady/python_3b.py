@@ -13,14 +13,16 @@ def get_degrees():
         except:
             print("Źle wprowadzono wartość stopni.")
 
-    print(f"Wprowadzono {stopnie=}")
+    # teraz funkcja zwróci wartość i zakończy działanie
+    return stopnie
 
 
 # wywołać funkcję pobierania danych od usera
-get_degrees()
+# przypiszemy to do zmiennej pobrane_stopnie
+pobrane_stopnie = get_degrees()
 
 # obliczyś sin i wyświetlić
-radiany = math.radians(stopnie)
+radiany = math.radians(pobrane_stopnie)
 sinus = math.sin(radiany)
 
-print(f"Sinus z {stopnie} wynosi {sinus}.")
+print(f"Sinus z {pobrane_stopnie} wynosi {sinus}.")
