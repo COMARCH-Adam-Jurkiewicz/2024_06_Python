@@ -5,13 +5,13 @@ import math  # import całego modułu
 # spytać usera o ilość stopni - funkcja zapisana przez nas
 def get_degrees():
     while True:
+        try:
+            stopnie = float(input("Pdaj nam stopnie do sinusa: "))
+        except:
+            print("Źle wprowadzono wartość stopni.")
+            stopnie = 0
 
 
-try:
-    stopnie = float(input("Pdaj nam stopnie do sinusa: "))
-except:
-    print("Źle wprowadzono wartość stopni.")
-    stopnie = 0
 
 # obliczyś sin i wyświetlić
 radiany = math.radians(stopnie)
