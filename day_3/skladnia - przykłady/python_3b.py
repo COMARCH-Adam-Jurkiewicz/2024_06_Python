@@ -2,7 +2,11 @@ import math  # import całego modułu
 # from math import sin, radians  # import tylko 1 funkcji z modułu
 
 
-# spytać usera o ilość stopni
+# spytać usera o ilość stopni - funkcja zapisana przez nas
+def get_degrees():
+    while True:
+
+
 try:
     stopnie = float(input("Pdaj nam stopnie do sinusa: "))
 except:
