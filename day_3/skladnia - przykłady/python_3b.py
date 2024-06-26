@@ -7,9 +7,14 @@ def get_degrees():
     while True:
         try:
             stopnie = float(input("Pdaj nam stopnie do sinusa: "))
+            # jeśli user wprowadził poprawną liczbę to koniec
+            if 0 <= stopnie <= 360:
+                break # przeskoczy do wiersza 16
         except:
             print("Źle wprowadzono wartość stopni.")
-            stopnie = 0
+
+    print(f"Wprowadzono {stopnie=}")
+
 
 # wywołać funkcję pobierania danych od usera
 get_degrees()
