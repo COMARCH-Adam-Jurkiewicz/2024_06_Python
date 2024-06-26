@@ -22,5 +22,5 @@ def my_file(extension):
 
 
 # kod programu
-sercure_file = my_file("tmp")
+sercure_file = my_file("txt")
 print(f"Bezpieczna nazwa pliku to: {sercure_file}")
